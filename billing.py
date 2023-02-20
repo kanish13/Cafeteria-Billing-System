@@ -100,7 +100,7 @@ def pay():
                 df.loc[df['USERNAME'] == login.user_name, "CARD_BALANCE"] = a  
                 df.to_csv('dataframe.csv', index=False)
                 print("PAID")
-                print("CUURENT BALANCE:",a)
+                print("CURENT BALANCE:",a)
             else:     
                 print("YOU DONT HAVE ENOUGH MONEY TO PAY")  
         else:
